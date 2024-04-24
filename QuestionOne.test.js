@@ -21,3 +21,7 @@ test("square of numbers in a list", () => {
     let result = [4, 16, 36, 64, 100];
     expect(result).toEqual([4, 16, 36, 64, 100]);
 })
+test("toFindExpensesOfDavidExpenses", ()=>{
+    let studentRecordOne ={groceries: 150, diningOut: 100, transportation: 50, entertainment: 80};
+    expect(totalAmountOfExpenses).toEqual(380);
+})
